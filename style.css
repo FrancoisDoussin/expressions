@@ -1,0 +1,19 @@
+body {
+  background: #737373;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Roboto",
+}
+
+#expression {
+  display: block;
+  height: 150px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -490px;
+  margin-top: -75px;
+  width: 980px;
+  font-size: 60px;
+}
