@@ -6,6 +6,10 @@ body {
   font-family: "Roboto",
 }
 
+body, html{
+  overflow-X: hidden;
+}
+
 #expression {
   display: block;
   height: 150px;
@@ -16,4 +20,20 @@ body {
   margin-top: -75px;
   width: 980px;
   font-size: 60px;
+}
+
+.toasty{
+  position: absolute;
+  left: 110%;
+  bottom:0;
+}
+
+.animateIn{
+  animation: 16s left forwards ease;
+}
+
+@keyframes left {
+  0% {left: 110%;}
+  50% {left: 50%;}
+  100%{left: 110%;}
 }
