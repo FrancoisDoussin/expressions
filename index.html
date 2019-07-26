@@ -10,7 +10,7 @@
 
 <body>
   <div id="expression"></div>
-  <img class='toasty' src='http://referentiel.nouvelobs.com/file/7706682.jpg'>
+  <!-- <img class='toasty' src='http://referentiel.nouvelobs.com/file/7706682.jpg' /> -->
   <script type="text/javascript">
     fetch("./sentences.json")
       .then(result => {
@@ -22,7 +22,8 @@
       });
   </script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+  </script>
   <script>
     // a key map of allowed keys
     var allowedKeys = {
@@ -65,7 +66,7 @@
 
     function activateCheats() {
       console.log('coucou');
-      var audio = new Audio('https://www.youtube.com/watch?v=VbHlzUQasiw');
+      var audio = new Audio('https://youtu.be/odYsZqx5suU?t=3');
       audio.play();
 
       $('.toasty').addClass('animateIn');
